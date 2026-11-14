@@ -1,0 +1,7 @@
+# Local source spreadsheet (hosted on Biblioteka Google Drive instead)
+biblioteka.xlsx
+
+# OS / editor / scratch files
+.DS_Store
+Thumbs.db
+node_modules/

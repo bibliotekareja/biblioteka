@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteka Polska im. M. Reja w Kitchener</title>
+    <link rel="icon" type="image/jpeg" href="IMG_20260420_150037.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <img src="IMG_20260420_150037.jpg" alt="Library Image 1">
+        <img src="IMG_20260420_150042.jpg" alt="Library Image 2">
+        <img src="IMG_20260420_150044.jpg" alt="Library Image 3">
+        <img src="IMG_20260420_150054.jpg" alt="Library Image 4">
+        <img src="IMG_20260420_150056.jpg" alt="Library Image 5">
+    </div>
+    <div class="container">
+        <header>
+            <h1>Biblioteka Polska, im. M. Reja w Kitchener</h1>
+            <p>66 Shanley Street, Kitchener Ontario N2H3N9</p>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search by title, author, or number..." aria-label="Search books">
+                <div id="bookCount" class="book-count" aria-live="polite"></div>
+            </div>
+        </header>
+
+        <main>
+            <div id="loading" class="loading">Loading collection...</div>
+            <div id="error" class="error" style="display: none;">Failed to load the library collection. Please try again later.</div>
+            <div id="bookList" class="book-list"></div>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Biblioteka Imienia Mikołaja Reja. Powered by simple code.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
