@@ -6,7 +6,7 @@
  * 4. Copy the Sheet ID from the URL:
  *    https://docs.google.com/spreadsheets/d/<SHEET_ID>/edit
  */
-const SHEET_ID = 'REPLACE_WITH_BIBLIOTEKA_SHEET_ID';
+const SHEET_ID = '1zl6_bYFixtMKgmQr2JdjEunpFzvxB3pNQCYJPX8Jw2A';
 
 /**
  * Optional list of tab GIDs to load and merge (found after `#gid=` in the sheet URL).
