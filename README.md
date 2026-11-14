@@ -4,8 +4,9 @@ Static website for browsing and searching the library catalog (`66 Shanley Stree
 
 ## Project Links
 
-- **Live Website:** https://bibliotekareja.github.io/biblioteka/
+- **Live Website:** https://bibliotekareja.github.io/ (redirects to https://bibliotekareja.github.io/biblioteka/)
 - **GitHub Repository:** https://github.com/bibliotekareja/biblioteka
+- **Root Redirect Repository:** https://github.com/bibliotekareja/bibliotekareja.github.io
 - **Google Sheet ID:** `1zl6_bYFixtMKgmQr2JdjEunpFzvxB3pNQCYJPX8Jw2A` (hosted under the Biblioteka Google account; sharing set to **Anyone with the link → Viewer**)
 
 ## Updating the Catalog
